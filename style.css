@@ -1,0 +1,76 @@
+
+.text-enphasy {
+    background-color: #00d7d2;
+    padding: 4px 8px;
+    color: #031b4e;
+    font-size: 9px;
+    border-radius: 5px;
+    vertical-align: middle;
+}
+
+header .navbar-default p {
+    color: #031b4e;
+    display: inline-block;
+    font-size: 12px;
+    cursor: pointer;
+    margin-bottom: 0px;
+    padding: 5px 0;
+    font-weight: bold;
+}
+
+.navbar-nav>.navfirsttop>a {
+    line-height: 0;
+    font-size: 12px;
+}
+
+.navbar {
+    min-height: 0;
+    background-color: white;
+    margin-bottom: 0;
+    border-top: 0;
+}
+
+.nav>li>a  {
+    padding:15px 15px;
+}
+
+.navbar-brand i, .navbar-brand span{
+    color: rgb(0, 95, 255);
+    font-weight: bold;
+}
+
+.navbar-brand i {
+    vertical-align: middle;
+    font-size: 30px;
+}
+
+ .navbar-brand span {
+     font-size: 22px;
+ }
+
+.navbar-collapse .signup li a{
+    color: rgb(0, 105, 255);
+    font-weight: bold;
+    border: 1px solid   rgb(0, 105, 255);
+    border-radius: 5px;
+    padding: 10px 15px;
+}
+
+.navbar .container-fluid .collapse .navbartextcolor li a {
+    color: rgb(73, 90, 127);
+    font-weight: bold;
+}
+
+.navpadding {
+    padding: 10px 0px;
+}
+
+.itempaddingnav {
+    padding-top: 5px;
+}
+
+@media  (max-width: 1280px) {
+   .navbar.navbar-default.navpadding {
+       display: none !important;
+   }
+}
