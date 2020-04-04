@@ -31,6 +31,10 @@
     color: rgba(3,27,78,.7);
 }
 
+.text-black {
+    color: black;
+}
+
 .backgroundblue {
     background-color: #0069ff;
 }
@@ -118,6 +122,7 @@ header .navbar-default  p {
     background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
     background-size: cover;
     background-repeat: no-repeat;
+    margin-bottom: 0;
 }
 
 .jumbotron .container .row p {
@@ -253,21 +258,127 @@ header .navbar-default  p {
     margin-bottom: 50px;
 }
 
+.firstelement .container .row div img {
+    max-width: 100%;
+    height: 100px;
+    object-fit: contain;
+    padding: 20px;
+}
 
+.firstelement {
+    padding-top: 10px;
+    padding-bottom: 40px;
+    background-color: #f3f5f9
+}
 
+.firstelement .container {
+    padding: 40px 0 ;
+}
 
+.secondelement {
+    background-color: white;
+}
 
+.secondelement .container .row div ul li{
+    border-top: 0;
+    border-right: 0 ;
+    border-bottom: 0;
+    border-left: 2px solid #gray;
+    border-radius: 0;
+    color: gray;
+    padding: 20px 40px;
+}
 
+.secondelement .container .row div ul li:first-child{
+    border-top: 0;
+    border-right: 0 ;
+    border-bottom: 0;
+    border-left: 2px solid blue;
+    color: black;
+}
 
+.secondelement .container .row{
+    padding-top: 50px;
+}
 
+.secondelement .container .row>div:last-child>div:nth-child(3) {
+    padding-top: 50px;
+}
 
+.secondelement .container .row>div:last-child>div:last-child {
+    padding-top: 50px;
+}
 
+.secondelement .container .row>div:last-child div {
+    padding: 10px 40px;;
+}
 
+.secondelement .container {
+    padding: 80px 0;
+}
 
+.thirdelement {
+    background-color: #f3f5f9;
+    padding: 80px 0;
+}
 
+.thirdelement .container img {
+    max-width: 50%;
+    display: inline-block;
+    padding: 30px 0 ;
+}
 
+.thirdelement>.container div::after {
+     font-family: "Font Awesome 5 Free";
+     display: inline-block;
+     font-weight: 900; content: "\f054";
+     color: black;
+     vertical-align: middle;
+     font-size: 30px;
+     padding-left: 30px;
+}
 
+.thirdelement>.container div::before {
+     font-family: "Font Awesome 5 Free";
+     display: inline-block;
+     font-weight: 900; content: "\f053";
+     color: gray;
+     vertical-align: middle;
+     font-size: 30px;
+     padding-right: 30px;
+}
 
+.thirdelement .container p {
+    font-size: 16px;
+    padding-top: 5px;
+}
+
+.thirdelement .container span {
+    font-size: 12px;
+    display: block;
+    padding-bottom: 20px;
+}
+
+.thirdelement .container i {
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 50px;
+    color:  #0069ff;
+}
+
+.fourthelement {
+    background-color:  white;
+    padding: 70px 0 ;
+}
+
+.fourthelement .container .row div a{
+    color: #0069ff;
+}
+
+.fourthelement .container .row{
+    padding-top: 40px;
+}
 
 
 
