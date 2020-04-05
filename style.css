@@ -382,14 +382,113 @@ header .navbar-default  p {
 
 .fifthelement {
     background: #031b4e url(https://www.digitalocean.com/assets/media/homepage/data-center-map-20321538.svg);
-    height:500px;
 }
 
+.fifthelement .container {
+    padding-bottom: 80px;
+    padding-top: 30px;
+}
 
+.fifthelement .container>h2 {
+    padding-left:150px;
+    padding-right:150px;
+    padding-top: 50px;
+}
 
+.fifthelement>.container .row div ul  {
+    margin: 0;
+    border-bottom: 1px solid #d5e4f7;
+    padding-top: 4px;
+}
 
+.fifthelement>.container .row div ul li p a {
+    color:#00d7d2;
+    font-size: 14px;
+}
 
+.fifthelement>.container .row div ul li:nth-child(2)  p {
+    font-size: 13px;
+}
 
+.fifthelement>.container .row div ul li:nth-child(1)  p {
+    font-size: 13px;
+}
+
+.fifthelement>.container .row div ul:last-child {
+    border: 0;
+}
+
+#gray {
+    color: gray;
+}
+
+.fifthelement>.container .row  {
+    margin: 20px 0 ;
+}
+
+.fifthelement>.container .row div {
+    padding-top: 40px;
+}
+
+.sixthelement {
+    padding: 50px 0 ;
+}
+
+.sixthelement .container p span {
+    display: inline;
+    font-size: 16px;
+    text-decoration: underline;
+}
+
+.sixthelement .container p span a{
+    color: #0069ff;
+}
+
+.sixthelement .container div img {
+    max-width: 60%;
+}
+
+.sixthelement>.container div::after {
+     font-family: "Font Awesome 5 Free";
+     display: inline-block;
+     font-weight: 900; content: "\f054";
+     color: black;
+     vertical-align: middle;
+     font-size: 30px;
+     padding-left: 30px;
+}
+
+.sixthelement>.container div::before {
+     font-family: "Font Awesome 5 Free";
+     display: inline-block;
+     font-weight: 900; content: "\f053";
+     color: gray;
+     vertical-align: middle;
+     font-size: 30px;
+     padding-right: 30px;
+}
+
+.getstarted .container a {
+    color: #0069ff;
+    border: 16px solid white;
+    background-color: white;
+    font-size: 16px;
+    border-radius: 5px;
+}
+
+.getstarted .container h2 {
+    margin-bottom: 50px;
+}
+
+.getstarted .container  {
+    padding: 50px 0 ;
+}
+
+.getstarted {
+    background-image: url(https://www.digitalocean.com/assets/media/homepage/bg-home-1-d54581d7.jpg);
+    background-size: cover;
+    background-position: bottom;
+}
 
 
 
