@@ -57,6 +57,10 @@ header .navbar-default  p {
     font-weight: bold;
 }
 
+.navbar {
+    border-radius:  0 ;
+}
+
 .navbar-nav>.navfirsttop>a {
     line-height: 0;
     font-size: 12px;
@@ -160,6 +164,10 @@ header .navbar-default  p {
  .signuphrbars {
      position: relative;
  }
+
+main {
+    margin-top: 107px;
+}
 
  .jumbotron .container .row .signuphrbars p {
      font-size: 16px;
@@ -367,6 +375,15 @@ header .navbar-default  p {
     color:  #0069ff;
 }
 
+.sixthelement .container i {
+    font-size: 10px;
+    padding-left: 5px;
+    padding-right: 5px;
+    padding-bottom: 50px;
+    padding-top: 20px;
+    color:  #0069ff;
+}
+
 .fourthelement {
     background-color:  white;
     padding: 70px 0 ;
@@ -448,6 +465,10 @@ header .navbar-default  p {
     max-width: 60%;
 }
 
+.sixthelement {
+    background-color:  #f3f5f9;
+}
+
 .sixthelement>.container div::after {
      font-family: "Font Awesome 5 Free";
      display: inline-block;
@@ -481,7 +502,7 @@ header .navbar-default  p {
 }
 
 .getstarted .container  {
-    padding: 50px 0 ;
+    padding: 65px 0 ;
 }
 
 .getstarted {
@@ -490,7 +511,43 @@ header .navbar-default  p {
     background-position: bottom;
 }
 
+footer {
+    background-color: #010e28;
+}
 
+footer .container .top ul li a {
+    color: gray;
+}
+
+footer .container .top ul li {
+    padding: 3px;
+}
+
+footer .container .top {
+    border-bottom: 1px solid gray;
+    padding: 50px 0;
+}
+
+footer .container .bottom p{
+    color: gray;
+    display: inline;
+    padding-left: 15px;
+}
+
+footer .container .bottom .vertical svg{
+        vertical-align: middle;
+}
+
+footer .container .bottom i{
+    font-size: 22px;
+    color: gray;
+    padding-top: 10px;
+}
+
+footer .container .bottom {
+    padding-top:40px;
+    padding-bottom: 80px;
+}
 
 @media (max-width: 992px){
     .navbar .container-fluid .navbar-collapse ul li a{
@@ -498,8 +555,8 @@ header .navbar-default  p {
     }
 }
 
-@media  (max-width: 1280px) {
-   .navbar.navbar-default.navpadding {
+@media  (max-width: 992px) {
+   .navbar.navbar-default.navpadding ul{
        display: none !important;
    }
 }
